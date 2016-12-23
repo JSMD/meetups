@@ -1,6 +1,6 @@
 # Meetup #3
 
-- (extra) Dmitri Pavlutin - Voca library presentation
+- (extra) Dmitri Pavlutin - [Voca](https://github.com/panzerdp/voca) library presentation
 
 - Nicu Micleușanu - Async JSON parser implementation in Node.JS
 
