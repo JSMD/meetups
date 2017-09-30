@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Chain Drive System</title>
+    </head>
+    <body>
+        <script src="9.js"></script>
+        <script>
+var testCases = [
+    [[0, 0, 16],  [100, 0, 16],  [100, 100, 12],  [50, 50, 24],  [0, 100, 12]],
+    [[0, 0, 26],  [120, 0, 26]],
+    [[100, 100, 60],  [220, 100, 14]],
+    [[100, 100, 16],  [100, 0, 24],  [0, 100, 24],  [0, 0, 16]],
+    [[0, 0, 60],  [44, 140, 16],  [-204, 140, 16],  [-160, 0, 60],  [-112, 188, 12], [-190, 300, 30],  [30, 300, 30],  [-48, 188, 12]],
+    [[0, 128, 14],  [46.17, 63.55, 10],  [121.74, 39.55, 14],  [74.71, -24.28, 10], [75.24, -103.55, 14],  [0, -78.56, 10],  [-75.24, -103.55, 14],  [-74.71, -24.28, 10], [-121.74, 39.55, 14],  [-46.17, 63.55, 10]],
+    [[367, 151, 12],  [210, 75, 36],  [57, 286, 38],  [14, 181, 32],  [91, 124, 18], [298, 366, 38],  [141, 3, 52],  [80, 179, 26],  [313, 32, 26],  [146, 280, 10], [126, 253, 8],  [220, 184, 24],  [135, 332, 8],  [365, 296, 50],  [248, 217, 8], [218, 392, 30]]
+];
+
+function clear() {
+    var buttons = document.createElement('div');
+    document.body.innerHTML = "";
+    document.body.appendChild(buttons);
+    testCases.forEach(function (data, i) {
+        var button = document.createElement('button');
+        button.innerHTML = String(i);
+        button.onclick = function () {
+            clear();
+            renderGears(data);
+            return false;
+        };
+        buttons.appendChild(button);
+    });
+}
+
+clear();
+        </script>
+    </body>
+</html>
