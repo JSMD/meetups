@@ -2,7 +2,7 @@
 
 - Nicolai Moraru - Vue composition API, The hero we didn't know we need
 
-- Alexandr Metreniuc - Styling in browser and in (react)native
+- [Alexandr Metreniuc - Styling in browser and in (react)native](https://slides.com/alexandrmetreniuc/styling/)
 
 - Dragoș Străinu - You Don't Know *.user.js
 
