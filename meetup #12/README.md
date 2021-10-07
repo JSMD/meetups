@@ -6,4 +6,4 @@
 
 - Dragoș Străinu - You Don't Know *.user.js
 
-- Vasilii Cuhar - Building elegant and safe code using well-known and less-known typescript features
+- [Vasilii Cuhar - Building elegant and safe code using well-known and less-known typescript features](https://www.icloud.com/keynote/0jy8C8rle0NDu9om-8tbM0zPQ#elegant_type-safe_code_with_ts)
