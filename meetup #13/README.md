@@ -4,4 +4,4 @@
 
 - Alexandru Olaru - Node + Rust = ♡
 
-- Andrei Lisnic - Dependency Injection Approaches in JavaScript
+- [Andrei Lisnic - Dependency Injection Approaches in JavaScript](./Andrei%20Lisnic%20-%20Dependency%20Injection%20Approaches/Dependency%20Injection%20Approaches.pdf)
